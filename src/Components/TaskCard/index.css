@@ -1,0 +1,144 @@
+.task-card-container {
+  background-color: #182335;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  
+}
+
+.a{
+  border-left: 2px solid #e71634;
+}
+
+.b{
+  border-left: 2px solid #ecb66e;
+}
+
+.c{
+  border-left: 2px solid #5997e1;
+}
+
+.d{
+  border-left: 2px solid #e77889;
+}
+
+.e{
+  border-left: 2px solid #6fc498;
+}
+
+.f{
+  border-left: 2px solid #d385ec;
+}
+
+
+
+.task-title {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #d8dae0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-style: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.deadline-and-team-conatiner {
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deadline {
+  display: flex;
+  align-items: center;
+}
+
+.clock {
+  background-color: #d8dae0;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.deadline-date {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #d8dae0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 5px;
+}
+
+.team-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+}
+
+.team-count {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #d8dae0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.clip {
+  color: #676c78;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.circle-overlaping {
+  width: 25px;
+  height: 25px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bcbcbc;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid white;
+}
+
+.circle-overlaping::before {
+  content: "50X50";
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: #bcbcbc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.circle-overlaping::after {
+  content: "60X60";
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  background-color: #bcbcbc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+}

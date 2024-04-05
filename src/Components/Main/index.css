@@ -1,0 +1,14 @@
+.main-container{
+    min-height: 88vh;
+    background-color: #060817;
+    padding: 22px;
+}
+
+.board-background{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
